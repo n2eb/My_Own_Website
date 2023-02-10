@@ -200,6 +200,17 @@ section {
     flex-wrap: wrap;
 }
 /* تخصيص وتصميم الكروت بالظلال وبطريقة التفاعل بشكل كامل  */
+/* .project-card {
+    background-color: white;
+    width: 20.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%); */
+    /* border-radius: 10px; */
+    /* padding: 20px;
+    margin: 15px;
+    transition: 0.5s ease;
+    cursor: pointer;
+} */
+
 .card {
     background-color: white;
     width: 21.25em;
@@ -210,10 +221,7 @@ section {
     transition: 0.5s ease;
     cursor: pointer;
 }
-/* تحريك الكرت عند تمرير الماوس عليه */
-/* .card:hover {
-    transform: scale(1.1);
-} */
+
 /* الأيقونات داخل الكروت */
 .icon {
     color: #483985;
@@ -322,19 +330,19 @@ section {
     grid-gap: 30px;
     margin-top: 80px;
 }
-.portfolio .portfolio-content .card {
+.portfolio .portfolio-content .project-card {
     background-color: white;
 }
 .portfolio .portfolio-content img {
     max-width: 100%;
 }
-.portfolio .portfolio-content .card .info {
+.portfolio .portfolio-content .project-card .info {
     padding: 20px;
 }
-.portfolio .portfolio-content .card .info h3 {
+.portfolio .portfolio-content .project-card .info h3 {
     margin: 0;
 }
-.portfolio .portfolio-content .card .info p {
+.portfolio .portfolio-content .project-card .info p {
     color: var(--text-color);
     line-height: 1.6;
     margin-bottom: 0;
@@ -350,26 +358,7 @@ section {
 .projects .content {
     margin-top: 30px;
 }
-/* تعديل الكروت تبع مشاريعي من ناحية الحجم والشكل */
-.project-card {
-    background-color: white;
-    border: 1px solid white;
-    min-height: 14em;
-    width: 23em;
-    overflow: hidden;
-    border-radius: 10px;
-    margin: 20px;
-    transition: 0.5s ease;
-    cursor: pointer;
-}
-/* تغيرر الكرت عند تمرير الماوس عليه  */
-.project-card:hover {
-    transform: scale(1.1);
-}
-/* تغيير شفافية الكروت في قسم المشاريع */
-.project-card:hover .project-image {
-    opacity: 0.9;
-}
+
 /* عرض الصورة في قسم المشاريع */
 .project-image img{
     width: 100%;
@@ -486,10 +475,9 @@ section {
         font-size: 10px;
     }
 
-    .project-card {
+    /* .project-card {
         font-size: 10px;
         padding: 10px 20px;
         margin-left: 10px;
-    }
+    } */
 }
-
