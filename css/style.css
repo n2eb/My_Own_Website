@@ -19,6 +19,7 @@
 
 
 /* Media queries */
+
 /* Small */
 @media (min-width: 576px) {
     .container {
@@ -72,163 +73,7 @@
 }
 /* End Components */
 
-/* تخصيص راس الصفحة */
-header {
-    width: 100%;
-    z-index: 999;
-    display: flex;
-    position: absolute;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px 120px;
-}
-/* الشعار أو البراند في راس الصفحة */
-.logo{
-    text-decoration: none;
-    font-size: 1.8em;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-/* الأزرار في أعلى الصفحة جهه اليمين */
-.navigation a{
-    padding: 0px 20px 0px 20px;
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 1.1em;
-    margin: 15px;
-    border-radius: 25px;
-    transition: 0.3s ease;
-}
-/* عند التمرير على الأزرار  في أعلى الصفحة يحدث تغيير */
-.navigation a:hover{
-    background-color: #ffffff;
-    border-radius: 15px;
-    color: #000;
-}
-/* التعديل على العناصر المكتوبة في منتصف الصفحة */
-section {
-    padding: 100px 200px;
-}
-/* خلفية الصفحة القسم الأول */
-.main {
-    width: 100%;
-    min-height: 78vh;
-    display: flex;
-    align-items: center;
-    background-repeat: no-repeat;
-    background-position: 1900px;
-    background: linear-gradient(300deg ,rgb(98, 213, 255), rgb(0, 119, 188));
-}
-
-/* تخصيص كلمة Hello iam Faisal */
-.main h2 {
-    font-size: 1.4em;
-    font-weight: 700;
-}
-/* تخصيص وظيفتي  */
-.main h2 span {
-    display: inline-block;
-    margin-top: 10px;
-    color: #ffffff;
-    font-size: 2em;
-    font-weight: 700;
-    white-space: nowrap;
-}
-/* تخصيص عبارة I build Beautiful Websites */
-.main h3 {
-    color: #000000;
-    font-size: 2em;
-    font-weight: 700;
-    letter-spacing: 1px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
-/* تخصيص الزر الخاص بإستعراض المشاريع */
-.main-btn {
-    color: rgb(255, 255, 255);
-    background-color: #0095ff;
-    text-decoration: none;
-    padding: 10px 15px;
-    border-radius: 15px;
-    letter-spacing: 1px;
-    font-size: 0.9em;
-    font-weight: 700;
-    display: inline-block;
-    margin-bottom: 40px;
-    transition: 0.5s ease;
-}
-/* تخصيص الزر عند تمرير الماوس عليه */
-.main-btn:hover {
-    background-color: #0061e8;
-    transform: scale(1.1);
-}
-.main img {
-    margin-right: 1000px;
-    /* width: 550px; */
-}
-/* أيقونات وسائل التواصل */
-.social-icons a{
-    color: #ffffff;
-    font-size: 1.7em;
-    padding-right: 30px;
-}
-/* My Skills تخصيص عنوان */
-.title {
-    display: flex;
-    justify-content: center;
-    color: #ffffff;
-    font-size: 2.2em;
-    font-weight: 800;
-    margin-bottom: 30px;
-}
-
-.title1 {
-    display: flex;
-    justify-content: center;
-    color: #000000;
-    font-size: 1.6em;
-    font-weight: 800;
-    margin-bottom: 30px;
-}
-/* تخصيص أبعاد الكروت Css Js HTML */
-.content {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-/* تخصيص وتصميم الكروت بالظلال وبطريقة التفاعل بشكل كامل  */
-/* .project-card {
-    background-color: white;
-    width: 20.25em;
-    box-shadow: 0 5px 25px rgba(1 1 1 / 15%); */
-    /* border-radius: 10px; */
-    /* padding: 20px;
-    margin: 15px;
-    transition: 0.5s ease;
-    cursor: pointer;
-} */
-
-.card {
-    background-color: white;
-    width: 21.25em;
-    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
-    /* border-radius: 10px; */
-    padding: 20px;
-    margin: 15px;
-    transition: 0.5s ease;
-    cursor: pointer;
-}
-
-/* الأيقونات داخل الكروت */
-.icon {
-    color: #483985;
-    font-size: 8em;
-    text-align: center;
-}
-/* المعلومات داخل الكروت */
+/* Start Skills Icons */
 .info {
     text-align: center;
 }
@@ -268,24 +113,14 @@ section {
     font-size: 5em;
 }
 
-.icon7 {
-    color: #17d837;
-    font-size: 5em;
-    text-align: center;
-}
-
-.icon8 {
-    color: #000000d2;
-    font-size: 5em;
-    text-align: center;
-}
-
 .info h3{
     color: #483985;
     font-size: 1.2em;
     font-weight: 700;
     margin: 10px;
 }
+
+/* End Skills Icons */
 
 /* Start Features */
 
@@ -316,7 +151,6 @@ section {
 }
 
 /* End Features */
-
 
 /* Start Portfolio */
 .portfolio {
@@ -349,63 +183,13 @@ section {
 }
 /* End Portfolio */
 
-/* لون خلفية المشروع */
-.projects {
-    /* background-color: #363636; */
-    background: linear-gradient(180deg ,rgb(98, 213, 255), rgb(0, 119, 188));
-}
-/* التعديل على أبعاد مشاريعي */
-.projects .content {
-    margin-top: 30px;
-}
-
-/* عرض الصورة في قسم المشاريع */
-.project-image img{
-    width: 100%;
-}
-/* أبعاد المعلومات الموجودة داخل الكرت في قسم المشاريع */
-.project-info {
-    padding: 1em;
-}
-
-.project-category {
-    font-size: 0.8em;
-    color: black;
-}
-/* توزيع العناوين داخل قسم المشاريع */
-.project-title {
-    display: flex;
-    justify-content: space-between;
-    text-transform: uppercase;
-    margin-top: 10px
-}
-
-.more-details {
-    text-decoration: none;
-    color: #363636;
-}
-
-.more-details:hover {
-    color: #00000097;
-}
-
-.contact .icon{
-    font-size: 4.5em;
-}
-/* لون الإيميل والواتس اب  */
-.contact .info h3{
-    color: #000;
-}
-/* حجم الخط تبع وسائل التواصل  */
-.contact .info p{
-    font-size: 1.3em;
-}
+/* Start Footer */
 /* أسفل جزء في الصفحة */
 .footer {
     color: white;
     padding: 0.6em;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 /*العناوين المكتوبة في أسفل الصفحة */
@@ -424,60 +208,12 @@ section {
     font-size: 1.1em;
     padding: 0 12px 0 0;
 }
-/* تضبيط مقاسات الموقع للجوالات  */
-@media (max-width:1023px){
-    header{
-        padding: 12px 20px;
-    }
 
-    .navigation a{
-        padding-left: 10px;
-    }
 
-    .title{
-        font-size: 1.8em;
-    }
-
-    section{
-        padding: 80px 20px;
-    }
-
-    .main-content h2 {
-        font-size: 1em;
-    }
-
-    .main-content h3{
-        font-size: 1.6em
-    }
-
-    .content{
-        align-items: center;
-    }
+/* أيقونات وسائل التواصل */
+.social-icons a{
+    color: #ffffff;
+    font-size: 1.9em;
+    padding-right: 30px;
 }
-
-@media (max-width:641px){
-    body{
-        font-size: 12px;
-        
-    }
-
-    .main-content h2{
-        font-size: 0.8em;
-    }
-
-    .main-content h3 {
-        font-size: 1.4em;
-    }
-}
-
-@media (max-width:300px){
-    body{
-        font-size: 10px;
-    }
-
-    /* .project-card {
-        font-size: 10px;
-        padding: 10px 20px;
-        margin-left: 10px;
-    } */
-}
+/* End Footer */
